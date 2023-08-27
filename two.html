@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Land</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="display">
+    <menu>
+        <!-- THE MENU SECTION -->
+        <section class="left">
+            <div class="top">
+                <img src="./rohit.png" alt="">
+                <h1>Note Land</h1>
+            </div>
+            <div class="line"></div>
+            <div class="bottom">
+                <div class="notelist" id="notelist">
+                    <!-- <div class="note">                
+                        <h2 class="noteonemain">one</h2>
+                        <p class="contentvalueone">Content one </p>
+                    </div>
+                    <div class="note">                
+                        <h2>two</h2>
+                        <p class="contentvalueone">Content two</p>
+                    </div> -->
+                    
+                </div>
+
+                <div class="newnote">
+                    <button class="newnotebutton">New Note</button>
+                </div>
+            
+        </section>
+        
+    </menu>
+        <!-- the main -->
+        <!-- part one -->
+        <main class="checknote">
+            <div class="chechnotes" >
+                <img src="./891094.png" alt="">
+                <div class="one">
+                <h3><span class="notes-found"> No </span> Note Found </h3>
+                <h6>add some notes form the left column</h6>
+              </div>
+            </div>
+<!-- part two -->
+<div class="notecretediv">
+    
+    <div class="createNote">
+        <div class="writeNote">
+             <input placeholder="Enter Your Note Title" type="text" class="createNoteTitle" id="createNoteTitle">
+             <textarea placeholder="Enter your Note Content " name="" id="createNoteContent" cols="30" rows="10"></textarea>
+        </div>
+        
+    </div>
+        <button id="createNoteButton" class="createNoteButton">Create Note</button>
+     
+
+</div>
+                
+
+              <!-- part three -->
+
+              <div class="notedisplay">
+                <div class="titledisplay">
+                    <h3 id="noteonemain" class="noteonemain"></h3>
+                    <div class="notedisplayone">
+                        <button class="newtask"> New Task</button>
+                        <button class="deletenote">Delete Note</button>
+
+                    </div>
+                
+              </div>
+                <div class="notebody">
+                    <div class="notebodyone">
+                    <p id="header"></p>
+                    </div>
+                <h1>Task List</h1>
+                    
+                    <hr>
+                    <ul class="taskdiv">
+                        <li class="taskdivone">
+                            <input type="checkbox" name="" id="checkbox" class="check">
+                            <label id="checkboxname"></label>
+                        </li>
+                        
+                    </ul>
+                </div>
+              </div>
+
+              <div class="addnewtask">
+                <div class="inputdiv">
+                   <input class="rohitinput" type="text" name="" placeholder="Enter Your Task">
+                </div>
+                <button class="Createtask">Create Task</button>
+              </div>
+        </main>
+</div>
+</div>
+</body>
+<script type="module" src="./main.js"></script>
+</html>
+<style>
+    button{
+        cursor: pointer;
+        border: none;
+    }
+</style>

@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Prompt'; */
+  font-family: 'Roboto';
+
+}
+
+.display{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-template-columns: 24% auto;
+  height: 100vh;
+}
+
+menu{
+  background-color:rgb(10, 10, 50);
+  color: white;
+
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+
+.left img{
+  height: 2rem; 
+  margin: 0 0.8rem ;
+}
+
+.left .top{
+  height: 9.7vh;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.line{
+  height: 2px;
+  width: 19.4rem;
+  background: white;
+}
+
+.notelist{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.note{
+  background: #fff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  border: 1px solid black;
+  border-radius: 16px;
+  margin: 0.8rem;
+  cursor: pointer;
+}
+
+h2{
+  color: #0097A7;
+}
+
+
+main{
+  position: relative;
+  background: #283593;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+main img{
+  height: 15rem;
+  margin-top: -20rem;
+  rotate: 5deg;
+}
+
+main .one{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+
+h3{
+  text-transform: uppercase;
+  padding: 0.8rem;
+  /* margin-bottom: -5rem; */
+}
+
+h6{
+  text-transform: uppercase;
+  padding: 0.8rem;
+  margin-bottom: -14rem;
+}
+
+.newnote{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newnotebutton{
+  bottom: 5%;
+  position: absolute;
+  border: none;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  border-radius: 16px;
+}
+.createNote{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.writeNote{
+  background: #fff;
+  width: 30vw;
+  height: 50vh;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+input , textarea{
+  position: relative;
+  display: block;
+  padding: 0.8rem;
+  border: none;
+  border-bottom: 1.6px solid black;
+  width: 25vw;
+  /* text-align: center; */
+  outline: none;
+  font-size: 1rem;
+}
+
+.createNoteButton{
+  padding: 0.8rem 2.5rem;
+  margin: 1rem;
+  margin-top: 1rem;
+  background: #fff;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 16px;
+}
+
+.notedisplay{
+  position: absolute;
+  background: #fff;
+  width: 76vw;
+  height: 10vh;
+  top: 0%;
+}
+
+.titledisplay{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding-left: 1rem;
+}
+
+.titledisplay h3{
+  color: #3949AB;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.notedisplayone{
+  padding-right: 1rem;
+}
+
+.notedisplayone button{
+  padding: 0.6rem 2rem;
+  margin: 0.8rem;
+  border-radius: 16px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.newtask{
+  background: #00695C;
+  
+}
+
+.deletenote{
+  background: #E53935;
+}
+
+.notebody{
+  background-color: white;
+  border-radius: 20px;
+  height: 72vh;
+  width: 50vw;
+  margin: 2rem;  
+  overflow-x: hidden;
+  color: black;
+  padding: 1rem 2rem;
+  margin-left: 10rem;
+}
+
+h1{
+  text-align: center;
+
+}
+
+#header{
+  margin: 0 0 0 2rem;
+  padding-top: 1rem;
+  font-size: 25px;
+  text-transform: uppercase;
+font-weight: 900;
+  color: black;
+}
+
+.taskdivone{
+  display: flex;
+  width: 10vw;
+  margin: 1rem;
+}
+
+#checkbox{
+  width: 10vw;
+}
+
+
+
+.inputdiv{
+  background-color: white;
+  width: 400px;
+  height: 120px;
+  border-radius: 20px;
+  border: 1px solid #37474F;
+  /* padding: 4rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addnewtask{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputdiv input{
+  padding: 0.8rem;
+  border-bottom: 1px solid black;
+ 
+}
+
+.Createtask{
+  padding: 0.8rem 2.5rem;
+  margin: 1rem;
+  margin-top: 1rem;
+  background: green;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 16px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  /* align-items: start; */
+  justify-content: start;
+  margin-top: 1rem;
+  width: 100vw;
+}
+
+#checkbox{
+  width: 2vw;
+  margin: 0 1rem;
+}
+
+.check{
+  display: none;
+}
+
+#checkbox[type="checkbox"]:before{
+    background-color: green;
+}
